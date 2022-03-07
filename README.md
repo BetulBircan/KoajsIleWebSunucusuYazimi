@@ -8,7 +8,7 @@ Koa.js ile web sunucumuzu yazalım.
 
 -index, hakkimda ve iletisim sayfaları oluşturalım.
 
-**Not: Programın Çlaışması için npm install demenizgerekmektedr.**
+**Not: Programın Çlaışması için npm install demeniz gerekmektedr.**
 
 -Sayfalara içerik olarak xxx sayfasına hoşgeldiniz şeklinde h1 başlıkları yazdıralım.
 
