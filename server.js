@@ -17,3 +17,4 @@ const app = new Koa()
 const Router = require('@koa/router')
 //router adında router nesnesi yaratma
 const router = new Router()
+
