@@ -8,6 +8,8 @@ Koa.js ile web sunucumuzu yazalım.
 
 -index, hakkimda ve iletisim sayfaları oluşturalım.
 
+**Not: Programın Çlaışması için npm install demenizgerekmektedr.**
+
 -Sayfalara içerik olarak xxx sayfasına hoşgeldiniz şeklinde h1 başlıkları yazdıralım.
 
 -port numarası olarak 3000'i kullanalım.
