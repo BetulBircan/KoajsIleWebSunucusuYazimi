@@ -18,3 +18,22 @@ const Router = require('@koa/router')
 //router adında router nesnesi yaratma
 const router = new Router()
 
+//Burada get isteği yapıyoruz ve response olarak ctx.body ile sayfaya hoşgeldiniz mesajı yazdırıyoruz.
+router.get('/',ctx => {
+    ctx.body =  '<h1>INDEX SAYFASINA HOŞGELDİNİZ</h1>'
+})
+
+//Burada index sayfasına get isteği yapıyoruz ve response olarak ctx.body ile sayfaya hoşgeldiniz mesajı yazdırıyoruz.
+router.get('/index',ctx => {
+    ctx.body =  '<h1>INDEX SAYFASINA HOŞGELDİNİZ</h1>'
+})
+
+//Burada hakkimizda sayfasına get isteği yapıyoruz ve response olarak ctx.body ile sayfaya hoşgeldiniz mesajı yazdırıyoruz.
+router.get('/hakkimizda',ctx => {
+    ctx.body =  '<h1>HAKKIMIZDA SAYFASINA HOŞGELDİNİZ</h1>'
+})
+
+//Burada iletisim sayfasına get isteği yapıyoruz ve response olarak ctx.body ile sayfaya hoşgeldiniz mesajı yazdırıyoruz.
+router.get('/iletisim',ctx => {
+    ctx.body =  '<h1>İLETİŞİM SAYFASINA HOŞGELDİNİZ</h1>'
+})
