@@ -37,3 +37,13 @@ router.get('/hakkimizda',ctx => {
 router.get('/iletisim',ctx => {
     ctx.body =  '<h1>İLETİŞİM SAYFASINA HOŞGELDİNİZ</h1>'
 })
+
+//router kullanımı
+app.use(router.routes())
+
+//serverın çalıştığını gösterir
+
+const port = 3000
+  app.listen(port,() => {
+      console.log(`Sunucu ${port} Portu Üzerinden Çalıştırıldı.`)
+  })
